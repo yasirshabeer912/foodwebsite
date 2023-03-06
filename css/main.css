@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: aliceblue ;  
+}
+a:hover{
+    color: aqua !important;
+}
+.navbar{
+    height: 80px;
+}
+.food-search{
+    background: url(../pics/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9% 0;
+    margin-top: 80px;
+}
+.food-search input{
+    width: 50%;
+    padding: 1%;
+}
+.food-search input:hover,
+.food-search input:focus{
+    border: none;
+}
+.food-search button{
+    padding: 1%;
+}
+.card-text{
+    bottom: 20px;
+    padding-left: 35%;
+}
+.card{
+    border-radius: 30px !important;
+}
+.card-image img{
+    border-radius: 30px !important;
+}
+
+#foods{
+    background-color: rgb(240, 240, 240) !important;
+    min-height: 80vh;
+    
+}
+.navbar-nav .nav-item .nav-link:active{
+    color: aqua !important;
+}
+
+
+@media (max-width: 991px) {
+    .navbar{
+        align-items: center;
+        padding: 20px 0px;
+    }
+    .navbar-collapse {
+        background-color: #fff;
+       text-align: center;
+       
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 20px 0px !important;
+    }
+    .food-search{
+        padding: 14% 0;
+    }
+
+   
+}
